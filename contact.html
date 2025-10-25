@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="تواصل مع فريق CyberAware للاستفسارات حول الأمن السيبراني">
+  <meta name="keywords" content="تواصل, استفسار, دعم, أمن سيبراني">
+  <meta name="author" content="CyberAware Team">
+  <meta property="og:title" content="تواصل معنا - CyberAware">
+  <meta property="og:description" content="تواصل مع فريق CyberAware للاستفسارات حول الأمن السيبراني">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cyberaware.example.com/contact.html">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <title>تواصل معنا - CyberAware</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+  
+  <header>
+    <nav aria-label="التنقل الرئيسي">
+      <div class="logo">CyberAware</div>
+      <button class="hamburger" aria-expanded="false" aria-controls="primary-menu" aria-label="القائمة">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="primary-menu" class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">نبذة</a></li>
+        <li><a href="threats.html">المخاطر</a></li>
+        <li><a href="protect.html">الحماية</a></li>
+        <li><a href="quiz.html">اختبار</a></li>
+        <li><a href="contact.html" aria-current="page">تواصل معنا</a></li>
+        <li><a href="signup.html">تسجيل</a></li>
+        <li><a href="signin.html">دخول</a></li>
+        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main id="main-content">
+    <section class="contact-page">
+      <h1>تواصل معنا</h1>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>معلومات التواصل</h2>
+          <p>يمكنك التواصل معنا عبر النموذج التالي أو من خلال معلومات التواصل أدناه:</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <div>
+                <h3>البريد الإلكتروني</h3>
+                <p>info@cyberaware.example.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <span class="contact-icon">📱</span>
+              <div>
+                <h3>الهاتف</h3>
+                <p>+967 123 456 789</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <h3>العنوان</h3>
+                <p>جامعة الجيل الجديد، صنعاء، اليمن</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-container">
+          <h2>أرسل لنا رسالة</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">الاسم:</label>
+              <input type="text" id="name" name="name" required aria-required="true">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">البريد الإلكتروني:</label>
+              <input type="email" id="email" name="email" required aria-required="true">
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">الموضوع:</label>
+              <input type="text" id="subject" name="subject" required aria-required="true">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">الرسالة:</label>
+              <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+            </div>
+            
+            <button type="submit" class="cta-btn">إرسال</button>
+            
+            <div id="contactResult" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 CyberAware. جميع الحقوق محفوظة.</p>
+    <nav aria-label="تنقل التذييل">
+      <ul class="footer-links">
+        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+    </nav>
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
